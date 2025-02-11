@@ -1,0 +1,10 @@
+Time resolution is 1 ps
+time test_in0 test_in1 test_out 
+                   0 00 00 1
+                 200 01 00 0
+                 400 01 11 0
+                 600 10 10 1
+                 800 10 00 0
+                1000 11 11 1
+                1200 11 01 0
+$stop called at time : 1400 ns : File "C:/Users/ruair/Documents/Vivado/Imported Files/eq2_tb.v" Line 51

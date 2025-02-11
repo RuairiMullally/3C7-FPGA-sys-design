@@ -1,0 +1,11 @@
+Time resolution is 1 ps
+time test_in0 test_in1 test_out 
+                   0 10101010 10101010 1
+                 200 11001100 10111100 1
+                 400 00001100 00001101 0
+                 600 01010111 01010110 1
+                 800 00000011 00000100 0
+                1000 11111111 00000000 1
+                1200 00000000 11111111 0
+                1400 01101001 01101000 1
+$stop called at time : 1600 ns : File "C:/Users/ruair/Documents/Vivado/Imported Files/gteq8_testbench.v" Line 61

@@ -1,0 +1,10 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ruair/Documents/Vivado/Imported Files/agtb2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module agtb2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ruair/Documents/Vivado/Imported Files/eq1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq1
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ruair/Documents/Vivado/Imported Files/eq2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eq2
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ruair/Documents/Vivado/Imported Files/eq8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gteq8
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/ruair/Documents/Vivado/Imported Files/gteq8_testbench.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module gteq8_testbench

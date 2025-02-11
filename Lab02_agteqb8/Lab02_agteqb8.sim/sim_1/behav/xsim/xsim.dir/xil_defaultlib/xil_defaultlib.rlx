@@ -1,0 +1,12 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/ruair/Documents/Vivado/Imported Files/agtb2.v,1738955915,verilog,,C:/Users/ruair/Documents/Vivado/Imported Files/agtb2_TB.v,,agtb2,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/agtb2_TB.v,1738933661,verilog,,,,agtb2_testbench,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/eq1.v,1738926197,verilog,,C:/Users/ruair/Documents/Vivado/Imported Files/eq2.v,,eq1,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/eq2.v,1738928203,verilog,,C:/Users/ruair/Documents/Vivado/Imported Files/eq2_tb.v,,eq2,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/eq2_tb.v,1738933544,verilog,,,,eq2_testbench,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/eq8.v,1738956926,verilog,,C:/Users/ruair/Documents/Vivado/Imported Files/gteq8_testbench.v,,gteq8,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Imported Files/gteq8_testbench.v,1738957221,verilog,,,,gteq8_testbench,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Lab02_agteqb8/Lab02_agteqb8.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
