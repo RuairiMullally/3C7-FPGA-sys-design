@@ -1,0 +1,15 @@
+Time resolution is 1 ps
+Time                 | Status  | test_in0 | test_in1 | test_sel | test_out | test_c_out | test_overflow | expected_out | expected_c_out | expected_overflow |
+                 100 | PASS:   |   000010 |   000011 |        0 |   000101 |          0 |             0 |       000101 |              0 |                 0 |
+                 300 | PASS:   |   000101 |   000011 |        1 |   000010 |          1 |             0 |       000010 |              1 |                 0 |
+                 500 | PASS:   |   111111 |   000001 |        0 |   000000 |          1 |             0 |       000000 |              1 |                 0 |
+                 700 | PASS:   |   000000 |   000001 |        1 |   111111 |          0 |             0 |       111111 |              0 |                 0 |
+                 900 | PASS:   |   010000 |   010000 |        0 |   100000 |          0 |             1 |       100000 |              0 |                 1 |
+                1100 | PASS:   |   100000 |   000001 |        1 |   011111 |          1 |             1 |       011111 |              1 |                 1 |
+                1300 | PASS:   |   000000 |   000000 |        1 |   000000 |          1 |             0 |       000000 |              1 |                 0 |
+                1500 | PASS:   |   100000 |   000001 |        1 |   011111 |          1 |             1 |       011111 |              1 |                 1 |
+                1700 | PASS:   |   111111 |   111111 |        0 |   111110 |          1 |             0 |       111110 |              1 |                 0 |
+
+Total Tests:           9, Passed:           9, Failed:           0
+Test Pass Percentage: 100.00%
+$stop called at time : 1800 ns : File "C:/Users/ruair/Documents/Vivado/Lab02_RippleAdder/Lab02_RippleAdder.srcs/sources_1/new/b6_ripple_adder_tb.v" Line 182

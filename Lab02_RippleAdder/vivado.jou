@@ -23,3 +23,10 @@
 #-----------------------------------------------------------
 start_gui
 open_project C:/Users/ruair/Documents/Vivado/Lab02_RippleAdder/Lab02_RippleAdder.xpr
+update_compile_order -fileset sources_1
+launch_simulation
+open_wave_config C:/Users/ruair/Documents/Vivado/Lab02_RippleAdder/b6_ripple_adder_tb_overflow1.wcfg
+source b6_ripple_adder_tb.tcl
+relaunch_sim
+relaunch_sim
+close_sim
