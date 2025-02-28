@@ -79,7 +79,7 @@ module b6_ripple_adder_tb;
         check_test_case();
         #100;
         
-        // V2: Simple subtraction, no overflow, no borrow
+        // V2: Simple subtraction, no overflow, carry out
         test_in0 = 6'b000101;
         test_in1 = 6'b000011;
         test_sel = 1'b1;
@@ -152,7 +152,19 @@ module b6_ripple_adder_tb;
         check_test_case();
         #100;
         
-        // V8: -32 - 1 (Underflow)
+        // V8: Zero case 2
+        test_in0 = 6'b000000;
+        test_in1 = 6'b000000;
+        test_sel = 1'b0;
+        
+        expected_out = 6'b000000;
+        expected_c_out = 1'b0;
+        expected_overflow = 1'b0;
+        #100;
+        check_test_case();
+        #100;
+        
+        // V9: -32 - 1 (Underflow)
         test_in0 = 6'b100000;
         test_in1 = 6'b000001;
         test_sel = 1'b1;
@@ -164,17 +176,54 @@ module b6_ripple_adder_tb;
         check_test_case();
         #100;
         
-        // V9: Adding -1 and -1 (two’s complement)
+        // V10: Adding -1 and -1 (two’s complement)
         test_in0 = 6'b111111;
         test_in1 = 6'b111111;
         test_sel = 1'b0;
         
-        expected_out = 6'b111110; // -2 in two's complement
+        expected_out = 6'b111110;
         expected_c_out = 1'b1;
         expected_overflow = 1'b0;
         #100;
         check_test_case();
         #100;
+        
+        //V11: Subtracting 
+        test_in0 = 6'b110110; 
+        test_in1 = 6'b110111; 
+        test_sel = 1'b1;      
+        
+        expected_out = 6'b111111; 
+        expected_c_out = 1'b0;  
+        expected_overflow = 1'b0; 
+        #100;
+        check_test_case();
+        #100;
+        
+        //V12: 
+        test_in0 = 6'b001010; 
+        test_in1 = 6'b111100; 
+        test_sel = 1'b1;      
+
+        expected_out = 6'b001110; 
+        expected_c_out = 1'b0;    
+        expected_overflow = 1'b0;
+        #100;
+        check_test_case();
+        #100;
+        
+        //V13: 
+        test_in0 = 6'b001010; 
+        test_in1 = 6'b111100; 
+        test_sel = 1'b0;      
+
+        expected_out = 6'b000110;
+        expected_c_out = 1'b1;    
+        expected_overflow = 1'b0; 
+        #100;
+        check_test_case();
+        #100;
+        
 
       
       $display("\nTotal Tests: %d, Passed: %d, Failed: %d", total_tests, pass_count, total_tests - pass_count);
