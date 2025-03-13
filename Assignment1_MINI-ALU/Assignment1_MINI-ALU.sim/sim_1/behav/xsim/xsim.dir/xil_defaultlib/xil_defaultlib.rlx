@@ -1,0 +1,15 @@
+0.7
+2020.2
+Nov  8 2024
+22:36:57
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.sim/sim_1/behav/xsim/glbl.v,1724786425,verilog,,,,glbl,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/6bit_ripple_adder.v,1739889184,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU.v,,b6_ripple_adder,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/agtb2.v,1738955915,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/b6xnor.v,,agtb2,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/agtb2_TB.v,1738933661,verilog,,,,agtb2_testbench,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq1.v,1738926197,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq2.v,,eq1,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq2.v,1738928203,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq8.v,,eq2,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq8.v,1738956926,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/full_adder.v,,gteq8,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/full_adder.v,1739877022,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU_tb.v,,FullAdder,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU.v,1741820750,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/agtb2.v,,MINI_ALU,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU_tb.v,1741820871,verilog,,,,MINI_ALU_tb,,,,,,,,
+C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/b6xnor.v,1741820528,verilog,,C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq1.v,,b6xnor,,,,,,,,
