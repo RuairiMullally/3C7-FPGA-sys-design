@@ -26,9 +26,9 @@ module agtb2(
 
     );
     wire and1, and2, and3;
-    assign and1 = a[0] & ~b[0];
-    assign and2 = a[1] & ~b[0] & ~b[1];
-    assign and3 = a[0] & a[1] & ~b[1];
+    assign and1 = a[1] & ~b[1];
+    assign and2 = a[0] & ~b[1] & ~b[0];
+    assign and3 = a[1] & a[0] & ~b[0];
     
     assign agtb = and1 + and2 + and3;
 endmodule

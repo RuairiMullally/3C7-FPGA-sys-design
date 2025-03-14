@@ -5,7 +5,6 @@ Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug 
 Using 2 slave threads.
 Starting static elaboration
 Pass Through NonSizing Optimizer
-WARNING: [VRFC 10-3091] actual bit length 1 differs from formal bit length 6 for port 'out' [C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU.v:38]
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
@@ -17,6 +16,7 @@ Compiling module xil_defaultlib.eq2
 Compiling module xil_defaultlib.agtb2
 Compiling module xil_defaultlib.gteq8
 Compiling module xil_defaultlib.b6xnor
+Compiling module xil_defaultlib.mux8x1
 Compiling module xil_defaultlib.MINI_ALU
 Compiling module xil_defaultlib.MINI_ALU_tb
 Compiling module xil_defaultlib.glbl

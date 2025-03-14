@@ -1,6 +1,6 @@
 Time resolution is 1 ps
-time  test_in0  test_in1  fxn  test_out
-                   0  000011  000001  100  000000
-                 200  000001  000011  100  000001
-                 400  000000  000000  101  000001
-$stop called at time : 600 ns : File "C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU_tb.v" Line 52
+Time                 | Status  | test_in0 | test_in1 | fxn | test_out | expected_out |
+                 100 | FAIL:   |   000011 |   000001 |        100 |   000000 |       xxxxxx |
+                 300 | FAIL:   |   000001 |   000011 |        100 |   000001 |       xxxxxx |
+                 500 | FAIL:   |   000000 |   000000 |        101 |   111111 |       xxxxxx |
+$stop called at time : 600 ns : File "C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU_tb.v" Line 85

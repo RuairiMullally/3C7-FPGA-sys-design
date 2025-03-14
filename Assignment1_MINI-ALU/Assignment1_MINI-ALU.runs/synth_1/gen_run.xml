@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1741824316" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MINI_ALU_tb.dcp">
-  <File Type="PA-TCL" Name="MINI_ALU.tcl"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1741884134" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/MINI_ALU_tb.dcp">
   <File Type="REPORTS-TCL" Name="MINI_ALU_reports.tcl"/>
-  <File Type="RDS-RDS" Name="MINI_ALU.vds"/>
-  <File Type="RDS-PROPCONSTRS" Name="MINI_ALU_drc_synth.rpt"/>
   <File Type="RDS-UTIL" Name="MINI_ALU_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="MINI_ALU_utilization_synth.pb"/>
+  <File Type="PA-TCL" Name="MINI_ALU.tcl"/>
+  <File Type="RDS-RDS" Name="MINI_ALU.vds"/>
   <File Type="RDS-DCP" Name="MINI_ALU.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="MINI_ALU_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="MINI_ALU_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/imports/imports/6bit_ripple_adder.v">
@@ -67,6 +64,13 @@
       <FileInfo>
         <Attr Name="ImportPath" Val="$PPRDIR/imports/full_adder.v"/>
         <Attr Name="ImportTime" Val="1739877022"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/mux8x1.v">
+      <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -161,9 +165,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2024"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>

@@ -56,6 +56,16 @@ module gteq8_testbench;
         a = 8'b01101001; 
         b = 8'b01101000;
         #200;
+        
+        // Test case 9: Random values
+        a = 8'b11111111; 
+        b = 8'b11011111;
+        #200;
+        
+         // Test case 10: Random values
+        a = 8'b00000001; 
+        b = 8'b00000010;
+        #200;
 
         // End simulation
         $stop;

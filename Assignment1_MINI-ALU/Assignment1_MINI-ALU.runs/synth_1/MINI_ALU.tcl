@@ -57,7 +57,11 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 2
+set_param checkpoint.writeSynthRtdsInDcp 1
 set_param xicom.use_bs_reader 1
+set_msg_config -id {Synth 8-256} -limit 10000
+set_msg_config -id {Synth 8-638} -limit 10000
+set_msg_config  -id {17-179}  -suppress 
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -82,6 +86,7 @@ read_verilog -library xil_defaultlib {
   C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq2.v
   C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/eq8.v
   C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/imports/imports/full_adder.v
+  C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/mux8x1.v
   C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.srcs/sources_1/new/MINI_ALU.v
 }
 OPTRACE "Adding files" END { }

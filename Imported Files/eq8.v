@@ -28,6 +28,8 @@ module gteq8(
     
     wire eq0, eq1, eq2, eq3; // internal wiring, for output from 2 bit comparators
     wire gt0, gt1, gt2, gt3; // internal wiring, for output from 2 bit greater than
+    wire signa = a[7];
+    wire signb = b[7];
     
     //MSB 2BIT COMPARISONS OF EQUALITY AND GREATER THAN
     eq2 eq3_unit(.a(a[7:6]), .b(b[7:6]), .aeqb(eq3));
@@ -44,10 +46,12 @@ module gteq8(
     
     //SOP outputs of 
     assign agteqb =
-                    gt3 |
+                    (~signa & signb) |
+                    ((signa == signb) & 
+                    (gt3 |
                     (eq3 & gt2) |
                     (eq3 & eq2 & gt1) |
                     (eq3 & eq2 & eq1 & gt0) |
-                    (eq3 & eq2 & eq1 & eq0);
+                    (eq3 & eq2 & eq1 & eq0)));
     
 endmodule

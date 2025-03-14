@@ -3,8 +3,8 @@
 # SW Build 5239630 on Fri Nov 08 22:35:27 MST 2024
 # IP Build 5239520 on Sun Nov 10 16:12:51 MST 2024
 # SharedData Build 5239561 on Fri Nov 08 14:39:27 MST 2024
-# Start of session at: Thu Mar 13 00:05:19 2025
-# Process ID         : 6920
+# Start of session at: Thu Mar 13 16:42:17 2025
+# Process ID         : 3728
 # Current directory  : C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.runs/synth_1
 # Command line       : vivado.exe -log MINI_ALU.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source MINI_ALU.tcl
 # Log file           : C:/Users/ruair/Documents/Vivado/Assignment1_MINI-ALU/Assignment1_MINI-ALU.runs/synth_1/MINI_ALU.vds
@@ -17,8 +17,8 @@
 # CPU Physical cores : 4
 # CPU Logical cores  : 8
 # Host memory        : 17005 MB
-# Swap memory        : 2154 MB
-# Total Virtual      : 19160 MB
-# Available Virtual  : 3095 MB
+# Swap memory        : 1073 MB
+# Total Virtual      : 18079 MB
+# Available Virtual  : 5851 MB
 #-----------------------------------------------------------
 source MINI_ALU.tcl -notrace
