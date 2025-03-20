@@ -1,5 +1,6 @@
 # compile verilog/system verilog design source files
 verilog xil_defaultlib  \
+"../../../../LabF_C_LFSR.srcs/sources_1/new/bit_counter.v" \
 "../../../../LabF_C_LFSR.srcs/sources_1/new/lfsr_19b.v" \
 "../../../../LabF_C_LFSR.srcs/sources_1/new/lfsr_19b_TB.v" \
 

@@ -57,7 +57,7 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 2
-set_param synth.incrementalSynthesisCache C:/Users/ruair/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-9324-RM_Laptop/incrSyn
+set_param synth.incrementalSynthesisCache C:/Users/ruair/AppData/Roaming/Xilinx/Vivado/.Xil/Vivado-872-RM_Laptop/incrSyn
 set_param checkpoint.writeSynthRtdsInDcp 1
 set_param xicom.use_bs_reader 1
 set_msg_config -id {Synth 8-256} -limit 10000

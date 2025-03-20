@@ -1,0 +1,7 @@
+Running: xsim.dir/lfsr_19b_clkdiv_behav/xsimk.exe -simmode gui -wdb lfsr_19b_clkdiv_behav.wdb -simrunnum 0 -socket 55186
+Design successfully loaded
+Design Loading Memory Usage: 29424 KB (Peak: 29424 KB)
+Design Loading CPU Usage: 655 ms
+Simulation completed
+Simulation Memory Usage: 30320 KB (Peak: 30320 KB)
+Simulation CPU Usage: 702 ms

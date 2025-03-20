@@ -20,7 +20,7 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-module lfsr_19b_TB(
+module lfsr_23b_TB(
 
     );
     
@@ -41,14 +41,28 @@ module lfsr_19b_TB(
     end
     
     
-    wire[18:0] Q_out;
+    wire[22:0] Q_out;
     wire max_tick;
-    lfsr_19b uut(.clk(clk), .reset(reset), .shift_enable(shift_enable), .Q_out(Q_out), .max_tick_reg(max_tick)); 
+    lfsr_23b uut(.clk(clk), .reset(reset), .shift_enable(shift_enable), .Q_out(Q_out), .max_tick_reg(max_tick)); 
+    wire[23:0] zero_count, one_count;
+    bit_counter bit_count(.clk(clk), .reset(reset), .max_tick(max_tick), .sh_en(shift_enable), .bit_in(Q_out[18]), .zero_count(zero_count), .one_count(one_count));
     
     initial begin
-        $monitor("%d %b %b %b %b" , 
-                   $time, clk , reset , max_tick, Q_out);
-        #10485780;
+        $monitor("%d %b %b %b %b %b %b" , 
+                   $time, clk , reset , max_tick, Q_out, zero_count, one_count);
+                   
+                   
+                   
+        // at 200ns, check enable functionality
+        #200 shift_enable = 1'b0;
+        // Hold freeze for 50ns
+        #50 shift_enable = 1'b1;
+        
+        // check reset mid-cycle
+        #150 reset = 1'b1;
+        #20  reset = 1'b0;
+        
+        #83887000; //time to hit one reset
         $stop;
     end
 endmodule
