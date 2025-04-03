@@ -1,0 +1,42 @@
+Time resolution is 1 ps
+
+=== Test 1: sh_en always on, basic functionality ===
+CHECK PASSED at position 0: Expected: 0, Got: 0
+CHECK PASSED at position 1: Expected: 0, Got: 0
+CHECK PASSED at position 2: Expected: 0, Got: 0
+CHECK PASSED at position 3: Expected: 0, Got: 0
+CHECK PASSED at position 4: Expected: 0, Got: 0
+CHECK PASSED at position 5: Expected: 1, Got: 1
+CHECK PASSED at position 6: Expected: 0, Got: 0
+CHECK PASSED at position 7: Expected: 0, Got: 0
+CHECK PASSED at position 8: Expected: 1, Got: 1
+CHECK PASSED at position 9: Expected: 0, Got: 0
+CHECK PASSED at position 10: Expected: 0, Got: 0
+CHECK PASSED at position 11: Expected: 0, Got: 0
+CHECK PASSED at position 12: Expected: 0, Got: 0
+CHECK PASSED at position 13: Expected: 1, Got: 1
+CHECK PASSED at position 14: Expected: 0, Got: 0
+CHECK PASSED at position 15: Expected: 0, Got: 0
+
+=== Test 2: test sh_en ===
+CHECK PASSED at position 16: Expected: 0, Got: 0
+CHECK PASSED at position 17: Expected: 0, Got: 0
+CHECK PASSED at position 18: Expected: 0, Got: 0
+CHECK PASSED at position 19: Expected: 0, Got: 0
+CHECK PASSED at position 20: Expected: 0, Got: 0
+CHECK PASSED at position 21: Expected: 1, Got: 1
+CHECK PASSED at position 22: Expected: 0, Got: 0
+CHECK PASSED at position 23: Expected: 0, Got: 0
+CHECK PASSED at position 24: Expected: 1, Got: 1
+CHECK PASSED at position 25: Expected: 0, Got: 0
+CHECK PASSED at position 26: Expected: 0, Got: 0
+CHECK PASSED at position 27: Expected: 0, Got: 0
+CHECK PASSED at position 28: Expected: 0, Got: 0
+CHECK PASSED at position 29: Expected: 1, Got: 1
+CHECK PASSED at position 30: Expected: 0, Got: 0
+CHECK PASSED at position 31: Expected: 0, Got: 0
+
+===Test 3: reset functionality ===
+CHECK PASSED at position 33: Expected: 0, Got: 0
+CHECK PASSED at position 34: Expected: 0, Got: 0
+$finish called at time : 440 ns : File "C:/Users/ruair/Documents/Vivado/Assignment2_LFSR-FSM/Assignment2_LFSR-FSM.srcs/sources_1/new/sequence_detector_10010_TB.v" Line 122
